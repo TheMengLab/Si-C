@@ -1,0 +1,10 @@
+input data:
+
+(1)Hi-C data is presented in the form of N*N matrix, in which N is the number of 50-kb bins in the individual chromosome. The Hi-C matrix of chromosome 1, or 2, etc. is stored as ./1/matrix or ./2/matrix, etc.
+
+(2)H3K4me3 signal of chromosome 1, or 2, etc. is stored under the directory of ./compartment/compartment/compartment_assign/PCA_H3K4me3_assign_50kb/H3K4me3_signal named as H3K4me3_chr1.dat, H3K4me3_chr2.dat, etc.. The data located at the i-th row means the summation of H3K4me3 signals in the i-th 50-kb sized bin.
+
+
+The calculation is performed using bash script with the command
+ bash getcompartment.sh 
+

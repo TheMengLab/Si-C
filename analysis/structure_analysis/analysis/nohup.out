@@ -1,0 +1,281 @@
+20
+263389
+Input the name for the original file:
+Input the filename containing the output file list:
+How many lines for each file:
+263389
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+Input the filename for the first conformation:
+Input the filename for the second conformation:
+Input the filename for target id:
+Input the filename for output:
+rm: cannot remove '*.png': No such file or directory
+40
+Input filename for original coordinate list:
+Input filename for assignment:
+Input the chr id for target assignment:
+Input the interval for distance calculation:
+Input filename for avedist:
+Input the startid for calculation:
+Input the endid for calculation:
+Input filename for output:
+1001
+
+real	0m3.930s
+user	0m3.836s
+sys	0m0.080s
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original coordinate:
+Input filename for assignment:
+Input the distance cutoff for calculation:
+Input filename for output:
+Input filename for original list:
+Input filename for output:
+263389
+Input the filename for filelist of original coordinate:
+Input the number of atoms in this system:
+Input the filename for target state:
+Input filename for output:
+Input the filename for filelist of original coordinate:
+Input the number of atoms in this system:
+Input the filename for target state:
+Input filename for output:
+Input filename for the first matrix:
+How many states in this system:
+Input filename foru output matrix:
+Input filename for the input:
+Input filename for output:
+Input filename for the first matrix:
+How many states in this system:
+Input filename foru output matrix:
+7.10573
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:
+Input filename for original data:
+Input the genome dist to consider peaks:
+Input filename for output:
+Input filename for peakassign:

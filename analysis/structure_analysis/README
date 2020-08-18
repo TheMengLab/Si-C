@@ -1,0 +1,36 @@
+Genome structure analysis scripts
+
+This repository contains an bash shell script which demonstrates the following analysis into the modeled 3D structures of 10-kb resolution
+
+
+Calculate the distance matrix between bins in the region of chromosome 1 30Mb-40Mb in modeled 20 structure replicas. The output distance matrix file is ./structure_analysis/analysis/align/distmatrix/chr1_30Mb_40Mb/distmatrix.dat. The logarithm of distance (the unit of distance is bead diameter) is saved in the output file.
+
+
+Calculate the intermingling between inter-chromosome bins. The output intermingle file is ./structure_analysis/analysis/align/intermingle/intermingle.dat, each row of which represents the percentage of bins in each chromosome that intermingle with other chromosome.
+
+
+Calculate the root mean square deviation between 20 structure replicas. The output file is ./structure_analysis/analysis/align/rmsd/rmsdmatrix_mirror.dat, in the format of 20*20 matrix. Elements in the matrix represent the RMSD between two structures after the alignment of translocation, rotation and mirror image.
+
+
+
+Calculate the gyration radius for all 200-kb chromatin regions and the gyration radius value is assigned to the center bead. The output gyration radius data for 20 chromosomes are saved in 20 files ./structure_analysis/analysis/align/sepscore_gyr/gyr_chr*.dat. 
+
+
+
+Calculate the separation score for each chromosome bead. The output separation score for 20 chromosomes are saved in 20 files ./structure_analysis/analysis/align/sepscore_gyr/sepscore_chr*.dat. 
+
+
+
+Identify the genomic positions for domain boundaries in genome structure in single cell. The output boundary positions in 20 chromosomes are saved in 20 files ./structure_analysis/analysis/align/sepscore_gyr/boundary_chr/boundary_chr*.dat. The data in the first column represents the position of identified boundary(in the unit of 10kb). The data in the second column represents the separation score for the boundary bead.
+
+
+
+Bash shell and awk are needed to perform the calculation. Commands used for structure calculation are
+
+cd structure_analysis/analysis/
+bash doall.sh
+cd ../..
+
+
+
+

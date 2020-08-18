@@ -1,0 +1,18 @@
+Input data:
+
+Information of chromatin bins for individual cells. These information is stored in the folder ./assignfile/ with the file names of assignall_10kb_cell1.dat, assignall_10kb_cell2.dat, etc.. 
+The information is listed if the format of N row*3 column with each row corresponding to one 10-kb chromatin bin in the genome. The first column is the index of chromatin bin(begins from 0) and the second column is the index of chromosome(begins from 0). The value of the third column is set to 1 (with contact reads mapped on the bin) or -1 (without contact reads mapped on the bin).
+
+
+Output data:
+
+voidbin_chr1.dat: The value of i-th row indicate whether the i-th bead in chromosome 1 is a void bin(-1 for void bin). 
+voidbin_chr*.dat: same format for other individual chromosome 
+
+
+
+
+Command for void bin calculation
+
+bash getvoidbin.sh
+
