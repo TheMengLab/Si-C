@@ -1,0 +1,29 @@
+
+The repository contains the codes and script demonstrateing the 3D structure calculation.
+
+To obtain the modeled structures, the shell script get3Dstructure.sh is used. Before running the script, input data and parameters need to be explained.
+
+On the top row of the script get3Dstructure.sh, there are several lines like
+
+chrnum=20       # The number of chromosome, including X chromosome
+finalres=100    # Resolution of final structure
+HiCdata=./GSM2219497_Cell_1_contact_pairs.txt   #Hi-C data
+chrlenfile=./chrlenlist.dat     #file containing the chromosome length
+repnum=10        #Number of structure replicas to generate
+
+
+These lines contains the information of input data for calculation. 
+chrnum represents the number of individual chromosomes in each cell(the number is 20 for mESC haploid cell)
+finalres represnets the target resolution of modeled structure. The value of 100 means each bead in modeled 3D structure represent chromatin region of 100-kb size
+HiCdata is the filename for experimental Hi-C. Please be careful with the format Hi-C data.
+chrlenfile is the file cotains the genomic length of each chromosome. The reference genome of chromosome length should be consistent of Hi-C data. The list should be sorted according to the identities of chromosomes
+repnum is the number of structure replicas to generate. The value can be set to 10 or 20.
+
+
+
+
+After setting the parameters, you can perform the calculation by the command
+bash get3Dstructure.sh
+
+
+
