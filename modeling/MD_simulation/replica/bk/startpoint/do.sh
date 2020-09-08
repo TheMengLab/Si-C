@@ -4,7 +4,7 @@ id=$1
 startid=$2
 chrnum=$3
 finalres=$4
-confnum=100
+confnum=10
 echo -e ../../../../contact/${finalres}kb_target/contactall/contactall${id}.dat '\n' ../../../../contact/${finalres}kb_target/contactall/assignall${id}.dat '\n' chrcontact.dat | ./gencontact_chrpoint.o
 
 
