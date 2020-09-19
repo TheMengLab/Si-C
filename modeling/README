@@ -1,3 +1,17 @@
+Overview
+
+Introduction
+Repo Contents
+System Requirements
+Installation Guide
+Demo
+Results
+
+1.Introduction
+The repository contains the codes and script used by Si-C method to construct high-resolution intact genome structures from single-cell Hi-C data. The code is written by C and the script is written in bash.
+There 
+
+
 
 The repository contains the codes and script demonstrateing the 3D structure calculation.
 
