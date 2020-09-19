@@ -23,7 +23,7 @@ do
 bash dosplit_refine.sh $res $[res/2] $finalres
 done < list1.dat
 
-
+bash getpdb.sh $finalres
 
 #bash do1.sh   
 #bash do2.sh  
