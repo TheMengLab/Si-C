@@ -4,7 +4,7 @@ chrnum=20	# The number of chromosome, including X chromosome
 finalres=100	# Resolution of final structure
 HiCdata=./GSM2219497_Cell_1_contact_pairs.txt	#Hi-C data
 chrlenfile=./chrlenlist.dat	#file containing the chromosome length
-repnum=10	#Number of structure replicas to generate
+repnum=2	#Number of structure replicas to generate
 
 dir=$PWD
 
@@ -50,7 +50,7 @@ cd ../../..
 
 
 #prepare files for structure calculation
-cd MD_simulation
+cd 3D_simulation
 mkdir ${finalres}kb_${repnum}replica
 cd ${finalres}kb_${repnum}replica
 for i in `seq 1 $repnum`
@@ -68,7 +68,7 @@ done
 #structure calculation
 
 cd $dir
-cd MD_simulation
+cd 3D_simulation
 cd ${finalres}kb_${repnum}replica
 for i in `seq 1 $repnum`
 do
