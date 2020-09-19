@@ -1,0 +1,77 @@
+Overview
+
+1.Introduction
+2.Repo Contents
+3.System Requirements
+4.Installation Guide
+5.Demo
+6.Results
+
+
+
+1.Introduction
+The repository contains the codes and script used by Si-C method to construct high-resolution intact genome structures from single-cell Hi-C data. The code is written by C and the script is written in bash.
+Both the source code and the compiled code are presented in the repository. 
+
+
+
+
+2.Repo Contents
+contact: repository for mapping single-cell Hi-C contacts to pairs of chromatin bins.
+3D_simulation: repository for calculating intact genome structures based on single-cell Hi-C data.
+get3Dstructure.sh: bash script for calculating 3D genome structures.
+
+To obtain the modeled structures, the shell script get3Dstructure.sh is used. Before running the script, input data and parameters need to be explained.
+
+On the top row of the script get3Dstructure.sh, there are several lines like
+
+chrnum=20       # The number of chromosome, including X chromosome
+finalres=100    # Resolution of final structure
+HiCdata=./GSM2219497_Cell_1_contact_pairs.txt   #Hi-C data
+chrlenfile=./chrlenlist.dat     #file containing the chromosome length
+repnum=2        #Number of structure replicas to generate
+
+These lines contains the information of input data for calculation. 
+chrnum: represents the number of individual chromosomes in each cell(the number is 20 for mESC haploid cell)
+finalres: represnets the target resolution of modeled structure. The value of 100 means each bead in modeled 3D structure represent chromatin region of 100-kb size
+HiCdata: the file name for experimental Hi-C. Please be careful with the format Hi-C data.
+chrlenfile: the file cotains the genomic length of each chromosome. The reference genome of chromosome length should be consistent of Hi-C data. The list should be sorted according to the identities of chromosomes
+repnum: the number of structure replicas to generate. 
+
+You may need to change the values in these top lines when calculate 3D structures using your own data.
+
+
+
+
+3.System Requirements
+The code is tested on Linux operating systems with the system Ubuntu 16.04
+It requires only a standard computer with enough RAM to support the calculation. We recommend a computer with the following specs:
+
+RAM: 8+ GB
+CPU: 4+ cores, 3.2+ GHz/core
+
+The runtimes below are generated using a computer with the recommended specs (8 GB RAM, 4 cores@3.2 GHz).
+
+
+
+
+4.Installation Guide
+awk and mysql are required before running the script, which can be installed by 
+
+sudo apt-get install mawk
+sudo apt-get install mysql-server
+
+it may take serveral minutes to finish the installation
+
+
+
+5.Demo
+Just run the script get3Dstructure.sh with the command
+
+bash get3Dstructure.sh
+
+The calculation is performed in background. It takes about 3 hours to finish the calculation. You can use the command top to check whether the calculation has ended.
+
+
+6.Results
+After the ending of the script, the generated genome structures are presented as ./3D_simulation/100kb_2replica/1/genome.pdb, ./3D_simulation/100kb_2replica/2/genome.pdb ....
