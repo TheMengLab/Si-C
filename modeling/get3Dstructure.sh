@@ -50,7 +50,7 @@ cd ../../..
 
 
 #prepare files for structure calculation
-cd 3D_simulation
+cd MD_simulation
 mkdir ${finalres}kb_${repnum}replica
 cd ${finalres}kb_${repnum}replica
 for i in `seq 1 $repnum`
@@ -68,7 +68,7 @@ done
 #structure calculation
 
 cd $dir
-cd 3D_simulation
+cd MD_simulation
 cd ${finalres}kb_${repnum}replica
 for i in `seq 1 $repnum`
 do
